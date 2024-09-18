@@ -14,14 +14,11 @@ class Order:
         customer.add_order(self)
         coffee.add_order(self)
 
-    @property
     def customer(self):
         return self._customer
 
-    @property
     def coffee(self):
         return self._coffee
 
-    @property
     def price(self):
         return self._price
